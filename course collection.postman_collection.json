@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d9db7791-2db7-4207-9328-e331de2e86b9",
+		"_postman_id": "a9ab26cf-c2ad-41d6-af7b-93388cebc415",
 		"name": "course collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -10,7 +10,10 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "localhost:8080/courses",
 					"host": [
@@ -73,6 +76,26 @@
 					"port": "8080",
 					"path": [
 						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Course",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/courses/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses",
+						"1"
 					]
 				}
 			},
