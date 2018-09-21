@@ -69,13 +69,15 @@
 					"raw": "    {\n        \"name\": \"TIBCO\",\n        \"description\": \"Welcome to the world of drag and drop\"\n    }"
 				},
 				"url": {
-					"raw": "localhost:8080/courses",
+					"raw": "localhost:8080/api/courses/1",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"courses"
+						"api",
+						"courses",
+						"1"
 					]
 				}
 			},
@@ -88,12 +90,13 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "localhost:8080/courses/1",
+					"raw": "localhost:8080/api/courses/1",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
+						"api",
 						"courses",
 						"1"
 					]
